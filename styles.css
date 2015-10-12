@@ -1,6 +1,172 @@
 /* This is where styles are defined for your page. */
 /* One style is provided as example. */
 
-h1 {
-    color: green;
+/* start body */
+a {
+	text-decoration: none;
 }
+
+body {
+	background-image: url('images/pine-trees.jpg');
+	background-position: center;
+	background-size: cover;
+	margin: 0;
+}
+h1,h2,h3,h4,h5,h6 {
+	font-family: sans-serif;
+}
+/* end body */
+
+
+/* start header */
+
+
+header.page-header {
+	background: rgba(144, 238, 144, 0.9);
+	box-shadow: .5px 1px 20px #333333;
+	padding-bottom: 1rem;
+	padding-left: 3rem;
+	padding-right: 3rem;
+	padding-top: 1rem;
+}
+
+.page-header h1 {
+	margin-bottom: 0;
+	font-size: 300%;
+}
+
+.page-header p {
+	margin-top: 0;
+	font-size: 130%;
+}
+
+.page-header small {
+	font-size: 60%;
+	font-style: normal;
+}
+/* end header */
+
+
+/* start aside */
+
+/* aside header */
+h2 {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+	padding-right: 0px;
+	padding-left: 0px;
+	padding-top: 1rem;
+	text-align: center;
+}
+
+aside.more-info {
+	background: rgba(49, 128, 83, 0.9);
+	box-shadow: .5px 1px 20px #333333;
+	display: inline-block;
+	float: right;
+	width: 25%;
+}
+
+aside.more-info img {
+	width: 50%;
+	height: auto;
+	border: 1px solid gray;
+/* image aligned in html */
+}
+
+aside.more-info div {
+	font-style: bold;
+	line-height: 1.5;
+	padding-top: 10px;
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-bottom: 10px;
+	text-align: center;
+}
+
+aside ul {
+	list-style-type: none;
+}
+
+aside ul.info-links, aside ul.social-links {
+	font-family: sans-serif;
+	line-height: 1.5;
+	list-style-type: none;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-top: 0;
+	padding-left: 0;
+	padding-right: 0;
+	padding-bottom: 1rem;
+	text-align: center;
+}
+/* inline style for padding under class .social links */
+
+/* end aside */
+
+
+/* start section */
+
+.poem ul {
+/* 	list-style-type: none; */
+}
+
+.poem li {
+	list-style-type: none;
+	font-size: large;
+	line-height: 1.8;
+	padding-left: 10px;
+}
+
+#content{
+	margin-top: 3rem;
+	margin-bottom: 2rem;
+}
+.content-footer {
+	padding-bottom: 3rem;
+	padding-left: 3rem;
+	padding-right: 3rem;
+	padding-top: 0;
+}
+
+/* end section */
+
+
+/* start footer */
+
+footer {
+	font-size: smaller;
+	padding-bottom: 1rem;
+	padding-left: 3rem;
+	padding-right: 3rem;
+	padding-top: .5rem;
+}
+
+footer.page-footer {
+	background: rgba(144, 238, 144, 0.9);
+	box-shadow: .5px 1px 20px #333333;
+}
+
+footer.page-footer div {
+	float: left;
+	list-style-type: none;
+	width: 50%;
+	text-align: center;
+}
+
+footer.page-footer div ul {
+	list-style-type: none;
+	padding: 0;
+}
+.citationresources {
+
+}
+
+p.page-credits {
+	font-style: italic;
+	text-align: center;
+	padding: 1rem;
+}
+
+/* end footer */
